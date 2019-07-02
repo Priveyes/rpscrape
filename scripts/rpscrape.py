@@ -388,7 +388,7 @@ def calculate_times(win_time, dist_btn, going, code, course):
                 lps_scale = 4.5
             else:
                 lps_scale = 5
-        elif "Soft" in going or "Heavy" or "Yielding" in going:
+        elif "Soft" in going or "Heavy" in going or "Yielding" in going:
             lps_scale = 4
 
     for dist in dist_btn:
